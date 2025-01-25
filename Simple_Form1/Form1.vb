@@ -1,10 +1,10 @@
 ﻿Public Class Form1
     
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Dim num1 As Integer
-        Dim num2 As Integer
-        num1 = CInt(TextBox1.Text)
-        num2 = CInt(TextBox2.Text)
+        Dim num1 As Single
+        Dim num2 As Single
+        num1 = TextBox1.Text
+        num2 = TextBox2.Text
         TextBox3.Text = num1 + num2
     End Sub
 
